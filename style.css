@@ -84,7 +84,7 @@ main { flex-grow: 1; display: flex; flex-direction: column; margin-bottom: 48px;
 }
 .content h1 { margin: 8px 0 32px; font-family: 'Red Hat Display', sans-serif; font-size: 38px; }
 .content h5 { margin: 0; font-family: 'Red Hat Display', sans-serif; font-size: 18px }
-.content p { max-width: 534px; margin: 0 auto; line-height: 150%; font-size: 16px }
+.content p { max-width: 534px; margin: 0 auto; line-height: 150%; font-size: 16px; text-align: justify; }
 
 #title { font-size: 24px; font-weight: bold; }
 
@@ -141,6 +141,10 @@ footer .inner ul li a {
 }
 footer .inner ul li i {
     margin-right: 6px;
+}
+
+footer .inner .col .notice {
+    color: #888;
 }
 
 @media (max-width: 850px) {
